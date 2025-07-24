@@ -1,0 +1,12 @@
+2025-07-24 14:54:41.314063-07:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into messages ( [*]?, ? )"; expected "identifier"; SQL statement:
+insert into messages ( ?, ? ) [42001-232]
+2025-07-24 15:23:40.058847-07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MESSAGE" not found; SQL statement:
+select * from message where id = ? [42102-232]
+2025-07-24 15:23:40.902413-07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MESSAGE" not found; SQL statement:
+select * from message where id = ? [42102-232]
+2025-07-24 15:23:41.486681-07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MESSAGE" not found; SQL statement:
+select * from message where id = ? [42102-232]
